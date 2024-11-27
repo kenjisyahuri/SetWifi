@@ -16,7 +16,7 @@ SetWifi Manager adalah library Arduino yang dirancang untuk mempermudah pengelol
 
 
 ### 2. Contoh Penggunaan
-Gunakan file contoh `AutoConnectExample.ino` untuk memulai:
+Gunakan file contoh `BasicLedExample.ino` untuk memulai:
 
 ```cpp
 #include <SetWifi.h>
