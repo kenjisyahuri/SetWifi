@@ -16,18 +16,19 @@ SetWifi Manager adalah library Arduino yang dirancang untuk mempermudah pengelol
 
 
 ### 2. Contoh Penggunaan
-Gunakan file contoh `BasicLedExample.ino` untuk memulai:
+Gunakan file contoh `BasicLedExample.ino` untuk memulai. 
+Berikut adalah **starting point** atau template dasar dari library ini. Anda dapat menambahkan lebih banyak kode untuk proyek yang lebih besar 😎.
 
 ```cpp
 #include <SetWifi.h>
 
-SetWifi wifiManager;
+SetWifi setapEsp;
 
 void setup() {
  Serial.begin(115200);
- wifiManager.begin();
+ setapEsp.begin();
 
- if (wifiManager.isConnected()) {
+ if (setapEsp.isConnected()) {
      Serial.println("Terhubung ke WiFi");
  } else {
      Serial.println("Mode Access Point Aktif");
@@ -35,5 +36,5 @@ void setup() {
 }
 
 void loop() {
- wifiManager.handle();
+ setapEsp.handle();
 }
