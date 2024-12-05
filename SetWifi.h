@@ -8,7 +8,7 @@
 #include <DNSServer.h>
 #include <EEPROM.h>
 
-#define DEFAULT_AP_NAME "KonfigurasiJaringan"
+#define DEFAULT_AP_NAME "Portal_Captive_ESP"
 #define DEFAULT_AP_IP "192.168.4.1"
 #define EEPROM_SIZE 512
 #define WIFI_CONNECT_TIMEOUT 20000  // Waktu timeout koneksi WiFi (20 detik)
